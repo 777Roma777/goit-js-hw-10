@@ -1,0 +1,55 @@
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.breed-select {
+    padding: 10px;
+}
+
+.loader,
+.error {
+    padding: 10px;
+    
+}
+
+.cat-info {
+    padding: 20px;
+}
+
+.cat-info img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cat-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+
+.cat-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.cat-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 400px;
+}
