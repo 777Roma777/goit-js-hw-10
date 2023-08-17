@@ -46,7 +46,7 @@ function getInformationAboutCat(event) {
         url,
       });
 
-      refs.catInfo.style.display = 'block';
+      refs.catInfo.style.display = 'flex';
     })
     .catch(() => {
       Notify.failure(refs.errorElement.textContent);
@@ -64,9 +64,11 @@ function renderBreedsSelect(breeds) {
 
 function markupCatInformation({ name, description, temperament, url }) {
   return `
-    <img src="${url}" alt="${name}"/>
+    <img src="${url}" alt="${name}" width="400px" height="300px"/>
+    <div class="text-CatInfo">
     <h2>${name}</h2>
-    <h3>${description}</h3>
-    <p>Temperament:${temperament}</p>
+    <p class="description-cat">${description}</p>
+    <p><b>Temperament:</b> ${temperament}</p>
+    </div>
   `;
 }

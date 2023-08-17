@@ -23,36 +23,35 @@ body {
   padding: 10px;
 }
 
-.cat-info {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.cat-image {
-  flex: 1;
-  max-width: 50%;
-  padding-right: 20px;
+.cat-img {
+  max-width: 100%;
+  margin-right: 20px;
 }
 
 .cat-info {
   flex: 1;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.text-CatInfo {
+  margin-left: 100px;
+  width: 100%;
 }
 
 .cat-info h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  max-width: 200px;
+  max-width: 600px;
 }
 
-.cat-info h3 {
+.description-cat {
   font-size: 24px;
   margin-bottom: 10px;
-  width: 100%;
 }
 
 .cat-info p {
   font-size: 16px;
   line-height: 1.5;
-  max-width: 400px;
+  max-width: 600px;
 }
