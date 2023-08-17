@@ -65,10 +65,8 @@ function renderBreedsSelect(breeds) {
 function markupCatInformation({ name, description, temperament, url }) {
   return `
     <img src="${url}" alt="${name}"/>
-    <div class="flex-text">
     <h2>${name}</h2>
     <h3>${description}</h3>
-    <p>${temperament}</p>
-    </div>
+    <p>Temperament:${temperament}</p>
   `;
 }

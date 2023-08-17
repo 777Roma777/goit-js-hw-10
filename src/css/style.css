@@ -22,17 +22,21 @@ body {
 .error {
   padding: 10px;
 }
-.flex.text {
-    display: flex;
-}
+
 .cat-info {
+  display: flex;
+  align-items: center;
   padding: 20px;
 }
 
-.cat-info img {
+.cat-image {
+  flex: 1;
   max-width: 50%;
-  height: auto;
-  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.cat-info {
+  flex: 1;
 }
 
 .cat-info h2 {
@@ -44,7 +48,7 @@ body {
 .cat-info h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  width: 50%;
+  width: 100%;
 }
 
 .cat-info p {
